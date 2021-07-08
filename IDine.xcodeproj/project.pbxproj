@@ -11,6 +11,11 @@
 		CD59AAC3269710CC003686FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59AAC2269710CC003686FC /* ContentView.swift */; };
 		CD59AAC5269710CE003686FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD59AAC4269710CE003686FC /* Assets.xcassets */; };
 		CD59AAC8269710CE003686FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD59AAC7269710CE003686FC /* Preview Assets.xcassets */; };
+		CD59AAD326971123003686FC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59AAD126971123003686FC /* Helper.swift */; };
+		CD59AAD426971123003686FC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59AAD226971123003686FC /* Order.swift */; };
+		CD59AAD626971134003686FC /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = CD59AAD526971134003686FC /* menu.json */; };
+		CD59AAD82697123A003686FC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59AAD72697123A003686FC /* Menu.swift */; };
+		CD59AADA2697174E003686FC /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59AAD92697174E003686FC /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		CD59AAC4269710CE003686FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD59AAC7269710CE003686FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD59AAC9269710CE003686FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD59AAD126971123003686FC /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CD59AAD226971123003686FC /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CD59AAD526971134003686FC /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		CD59AAD72697123A003686FC /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		CD59AAD92697174E003686FC /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +62,16 @@
 		CD59AABF269710CC003686FC /* IDine */ = {
 			isa = PBXGroup;
 			children = (
+				CD59AAD126971123003686FC /* Helper.swift */,
+				CD59AAD526971134003686FC /* menu.json */,
+				CD59AAD226971123003686FC /* Order.swift */,
+				CD59AAD72697123A003686FC /* Menu.swift */,
 				CD59AAC0269710CC003686FC /* IDineApp.swift */,
 				CD59AAC2269710CC003686FC /* ContentView.swift */,
 				CD59AAC4269710CE003686FC /* Assets.xcassets */,
 				CD59AAC9269710CE003686FC /* Info.plist */,
 				CD59AAC6269710CE003686FC /* Preview Content */,
+				CD59AAD92697174E003686FC /* ItemRow.swift */,
 			);
 			path = IDine;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD59AAD626971134003686FC /* menu.json in Resources */,
 				CD59AAC8269710CE003686FC /* Preview Assets.xcassets in Resources */,
 				CD59AAC5269710CE003686FC /* Assets.xcassets in Resources */,
 			);
@@ -140,6 +156,10 @@
 			files = (
 				CD59AAC3269710CC003686FC /* ContentView.swift in Sources */,
 				CD59AAC1269710CC003686FC /* IDineApp.swift in Sources */,
+				CD59AAD426971123003686FC /* Order.swift in Sources */,
+				CD59AADA2697174E003686FC /* ItemRow.swift in Sources */,
+				CD59AAD326971123003686FC /* Helper.swift in Sources */,
+				CD59AAD82697123A003686FC /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
